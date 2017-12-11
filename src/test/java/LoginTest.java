@@ -17,7 +17,7 @@ public class LoginTest {
                 driver.findElement(By.cssSelector(".flash.success")).isDisplayed());
 
     }
-Threed Sleep(1);
+
     @AfterMethod
     public void tearDown(){
         driver.quit();
